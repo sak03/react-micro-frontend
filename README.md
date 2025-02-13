@@ -35,6 +35,11 @@ All three `app1`, `app2` & `app3` are independently deployed apps:
 3. Run the code at "localhost:3002"
    ```bash
    npm start
+  
+
+The UI at Chat App: `app2`: http://localhost:3002 will look like
+
+![Alt text](screenshots/chatImg.png)
 
 4. Then go to email-app folder and Install all dependencies
    ```bash
