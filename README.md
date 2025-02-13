@@ -1,5 +1,13 @@
 # React Micro Frontend
-Chennai Super Kings (CSK) Shares
+This is a micro front end architecture. 
+Where two micro react app called Chat App and Email app wrap inside the Host App.
+
+All three `app1`, `app2` & `app3` are independently deployed apps:
+
+- Host App: `app1`: http://localhost:3001
+- Chat App: `app2`: http://localhost:3002
+- Email App: `app2`: http://localhost:3002
+
 
 ### Tech Stack
 1. [ReactJS](https://react.dev/ "ReactJS")  
