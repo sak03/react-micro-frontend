@@ -1,0 +1,10 @@
+node_modules/
+host-app/node_modules/
+chat-app/node_modules/
+email-app/node_modules/
+
+build/
+host-app/build/
+chat-app/build/
+email-app/build/
+
