@@ -6,7 +6,7 @@ All three `app1`, `app2` & `app3` are independently deployed apps:
 
 - Host App: `app1`: http://localhost:3001
 - Chat App: `app2`: http://localhost:3002
-- Email App: `app2`: http://localhost:3002
+- Email App: `app3`: http://localhost:3002
 
 
 ### Tech Stack
@@ -50,6 +50,10 @@ The UI at Chat App: `app2`: http://localhost:3002 will look like
    ```bash
    npm start
 
+The UI at Email App: `app3`: http://localhost:3003 will look like
+
+![Alt text](screenshots/emailImg.png)
+
 6. Then go to host-app folder and Install all dependencies
    ```bash
    cd host-app/
@@ -58,3 +62,7 @@ The UI at Chat App: `app2`: http://localhost:3002 will look like
 3. Run the code at "localhost:3001"
    ```bash
    npm start
+
+The UI at Host App: `app1`: http://localhost:3001 will look like
+
+![Alt text](screenshots/hostImg.png)
