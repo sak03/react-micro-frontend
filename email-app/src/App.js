@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import GaugeChart from 'react-gauge-chart'
 
 const App = () => {
   const [toEmail, setToEmail] = useState('');
@@ -14,6 +15,7 @@ const App = () => {
     setMsgText("")
   }
   return (
+    <>
     <div style={{
       border: "1px solid black",
       borderRadius: "10px",
@@ -76,6 +78,14 @@ const App = () => {
         >Send</button>
       </div>
     </div>
+      <GaugeChart 
+      id="gauge-chart4"
+        nrOfLevels={10}
+        arcPadding={0.1}
+        cornerRadius={3}
+        percent={0.6}
+      />
+    </>
   )
 }
 
